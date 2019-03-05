@@ -1,0 +1,33 @@
+.navbar-brand{
+    font-size: 30px;
+}
+.active{
+    box-shadow: 0 0 10px black;
+}
+.bg-teal{
+    background-color: teal;
+}
+.text-teal{
+    color: teal;
+}
+.t_card{
+    box-shadow: 0 0 10px teal;
+    border-radius: 10px;
+    transition: all 1s;
+}
+.t_card:hover{
+    background-color: lightsalmon;
+    transform: perspective(200px) rotateY(5deg);
+}
+.t_card:hover h3,.t_card:hover p,.t_card:hover .fab{
+    color: white !important;
+}
+/*service cards*/
+.s_card{
+    box-shadow: 0 0 10px teal;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.s_card:hover{
+    transform: perspective(400px) rotateY(10deg);
+}
